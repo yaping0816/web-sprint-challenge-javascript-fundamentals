@@ -17,7 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+// Even if the variable internal isn't been declared inside of the nestedFunction, but the bestedFunction can use closure to reach out to the outer function scope to access the value of variable internal.
 
 
 
