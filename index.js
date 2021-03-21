@@ -121,21 +121,18 @@ const zooAnimals = [
   /* 🦁🦁🦁 Step 2: Create several functions to callback with consume(); 🦁🦁🦁 */
  // 🦁🦁🦁 Use add to return the sum of two numbers 🦁🦁🦁
   
-function add(num1,num2){
-    return num1 + num2;
-  }
+const add = (num1,num2) => num1 + num2;
+  
 
 // 🦁🦁🦁 Use multiply to return the product of two numbers 🦁🦁🦁
   
-function multiply(num1,num2){
-   return num1 * num2;
-  }
+const multiply = (num1,num2) => num1 * num2;
+  
 
  // 🦁🦁🦁 Use greeting to accept a first and last name and return "Hello {first-name} {last-name}, nice to meet you!" 🦁🦁🦁
   
-function greeting(firstName,lastName){
-   return `Hello ${firstName} ${lastName}, nice to meet you!`
-  }
+const greeting = (firstName,lastName) => `Hello ${firstName} ${lastName}, nice to meet you!`;
+  
   
   // 🦁🦁🦁 Step 3: Check your work by un-commenting the following calls to consume(): 🦁🦁🦁 
   // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
